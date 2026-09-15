@@ -25,19 +25,22 @@ header p {
 }
 
 nav {
-    width: 100%;
+    /* width: 100%; */
     background-color: #333333;
+    padding: 5px;
 }
 
 nav ul {
-    width: 30%;
-    margin: auto;
-    padding: 1vh 1vw;
-    list-style: none;
+    /* width: 30%; */
+    /*margin: auto; */
+    /* padding: 1vh 1vw; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    margin: 1vh 0;
+    /* margin: 1vh 0; */
     display: inline;
     padding:  5px;
     border-right: 2px solid grey;
