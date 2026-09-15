@@ -148,6 +148,14 @@ footer p {
     color: red;
 }
 
+.profile-photo {
+    display: block;
+    width: 30%;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto 3vh auto;
+}
+
 @media screen and (max-width: 1000px) {
     .content {
         display: block;
@@ -237,6 +245,11 @@ footer p {
     .calculator-buttons {
         gap: 2vw;
     }
+
+    .profile-photo {
+        width: 50%;
+        max-width: 200px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -259,5 +272,10 @@ footer p {
 
     .calculator-buttons button {
         flex: 1 1 28%;
+    }
+
+    .profile-photo {
+        width: 50%;
+        max-width: 200px;
     }
 }
