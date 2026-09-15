@@ -154,6 +154,7 @@ footer p {
     max-width: 250px;
     height: auto;
     margin: 0 auto 3vh auto;
+    transform: rotate(90deg); /* got from google, because image is rotated side ways and just needed a way to rotate image so it was proper direction. */
 }
 
 @media screen and (max-width: 1000px) {
@@ -249,6 +250,7 @@ footer p {
     .profile-photo {
         width: 50%;
         max-width: 200px;
+        transform: rotate(90deg);
     }
 }
 
@@ -277,5 +279,6 @@ footer p {
     .profile-photo {
         width: 50%;
         max-width: 200px;
+        transform: rotate(90deg);
     }
 }
