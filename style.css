@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    width: 100%;
     padding: 4vh 2vw;
     background-color: #d9e6f2;
     text-align: left;
@@ -24,14 +25,19 @@ header p {
     font-size: calc(12px + 0.5vw);
 }
 
-nav {
+.content {
+    display: flex;
     width: 100%;
+}
+
+nav {
+    width: 30%;
     background-color: #333333;
     padding: 5px;
 }
 
 nav ul {
-    width: 30%;
+    width: 100%;
     margin: auto;
     padding: 1vh 1vw;
     list-style-type: none;
@@ -41,7 +47,6 @@ nav li {
     margin: 1vh 0;
     display: inline;
     padding:  5px;
-    border-right: 2px solid grey;
 }
 
 nav a {
@@ -59,7 +64,7 @@ nav a:hover {
 main {
     width: 70%;
     min-height: 100vh;
-    margin: auto;
+    margin: 0;
     padding: 5vh 3vw;
     background-color: white;
 }
@@ -91,6 +96,7 @@ section h2 {
 }
 
 footer {
+    width: 100%;
     padding:2vh 2vw;
     background-color: #d9e6f2;
 }
@@ -144,7 +150,11 @@ footer p {
 
 @media screen and (max-width: 1000px) {
     main {
-        width: 100%;
+        width: 70%;
+    }
+
+    nav {
+        width: 30%;
     }
 
 }
@@ -159,6 +169,14 @@ footer p {
         padding: 3vh 2vw;
     }
 
+    .content {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
     nav ul {
         width: 100%;
         display: flex;
@@ -169,6 +187,7 @@ footer p {
 
     nav li {
         margin: 0;
+        display: block;
     }
 
     nav a {
@@ -176,6 +195,7 @@ footer p {
     }
 
     main {
+        width: 100%;
         padding: 4vh 4vw;
     }
 
