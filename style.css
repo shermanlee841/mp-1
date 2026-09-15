@@ -38,6 +38,9 @@ nav ul {
 
 nav li {
     margin: 1vh 0;
+    display: inline;
+    padding:  5px;
+    border-right: 2px solid grey;
 }
 
 nav a {
