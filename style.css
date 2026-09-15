@@ -149,12 +149,16 @@ footer p {
 }
 
 @media screen and (max-width: 1000px) {
+    .content {
+        display: block;
+    }
+
     main {
-        width: 70%;
+        width: 100%;
     }
 
     nav {
-        width: 30%;
+        width: 100%;
     }
 
 }
