@@ -2,9 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Sherman Lee | Projects</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
-<body>
 
+<body>
+    <header>
+        <h1>Projects</h1>
+        <p>Programming and Computer Science Projects</p>
+    </header>
+    <div class = "content">
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "education.html">Education</a></li>
+                <li><a href = "skills.html">Skills</a></li>
+                <li><a href = "experience.html">Experience</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "interests.html">Interests</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Snake</h2>
+                <p>
+                    <strong>Python, Pygame, Pytorch, Matplotlib, Numpy</strong>
+                </p>
+                <p>
+                    September 2025 - November 2025
+                </p>
+                <ul>
+                    <li>Implemented Q-learning with Bellman updates to approximate an action-value function using a neural network.</li>
+                    <li>Engineered a reward function to incentivize food acquisition and penalize collisions.</li>
+                    <li>Applied experience replay witj mini batch training to stabilize learning and improve sample efficiency.</li>
+                    <li>Utilized an epsilon-greedy exploration strategy with decay to balance exploration and exploitation.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Wordle</h2>
+                <p>
+                    <strong>Java</strong>
+                </p>
+                <p>
+                    February 2025
+                </p>
+                <ul>
+                    <li>Implemented HashSets for letter lookup and validation.</li>
+                    <li>Utilized color-coded feedback logic to indicate placement accuracy.</li>
+                    <li>Integrated a word list using file I/O to validate guesses against a predefined dictionary.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Coded Excel Spreadsheet</h2>
+                <p>
+                    <strong>Java</strong>
+                </p>
+                <p>
+                    May 2024
+                </p>
+                <ul>
+                    <li>Developed algebraic features for financial calculations.</li>
+                    <li>Utilized downcasting for flexible handling of subclass-specific functionality.</li>
+                    <li>Implemented linked list data structures for insertion and deletion.</li>
+                </ul>
+            </section>
+
+            <section class = "calculator">
+                <h2>JavaScript Calculator</h2>
+
+                <div class = "calculator-row">
+                    <label for = "first-number">First number:</label>
+                    <input type = "text" id = "first-number">
+                </div>
+
+                <div class = "calculator-row">
+                    <label for = "second-number">Second number:</label>
+                    <input type = "text" id = "second-number">
+                </div>
+
+                <div class = "calculator-buttons">
+                    <button onclick = "addition()">+</button>
+                    <button onclick = "subtraction()">-</button>
+                    <button onclick = "multiplication()">*</button>
+                    <button onclick = "division()">/</button>
+                    <button onclick = "power()">**</button>
+                    <button onclick = "clearCalculator()">Clear</button>
+                </div>
+
+                <p>
+                    Output: <span id = "output"></span>
+                </p>
+
+            </section>
+        </main>
+    </div>
+
+<footer>
+    <p>All Rights Reserved by Sherman Lee | <a href = "credits.html">Credits &copy;</a></p>
+</footer>
+<script src = "calculator.js"></script>
 </body>
 </html>
