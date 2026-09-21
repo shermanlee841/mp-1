@@ -192,6 +192,7 @@ footer p {
 @media screen and (max-width: 750px) {
     body {
         padding: 0 2vw;
+        text-align: center;
     }
 
     header {
@@ -201,6 +202,7 @@ footer p {
 
     .content {
         display: block;
+        text-align: center;
     }
 
     nav {
@@ -227,6 +229,7 @@ footer p {
     main {
         width: 100%;
         padding: 4vh 4vw;
+        text-align: center;
     }
 
     .calculator-row {
