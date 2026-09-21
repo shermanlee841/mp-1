@@ -252,30 +252,30 @@ footer p {
     }
 }
 
-@media screen and (max-width: 520px) {
-    body {
-        padding: 0 1vw;
-    }
+/*@media screen and (max-width: 520px) {*/
+/*    body {*/
+/*        padding: 0 1vw;*/
+/*    }*/
 
-    header h1 {
-        font-size: calc(22px + 3vw);
-    }
+/*    header h1 {*/
+/*        font-size: calc(22px + 3vw);*/
+/*    }*/
 
-    main {
-        padding: 3vh 4vw;
-    }
+/*    main {*/
+/*        padding: 3vh 4vw;*/
+/*    }*/
 
-    nav a {
-        padding: 1vh 2vw;
-        font-size: calc(11px + 0.5vw);
-    }
+/*    nav a {*/
+/*        padding: 1vh 2vw;*/
+/*        font-size: calc(11px + 0.5vw);*/
+/*    }*/
 
-    .calculator-buttons button {
-        flex: 1 1 28%;
-    }
+/*    .calculator-buttons button {*/
+/*        flex: 1 1 28%;*/
+/*    }*/
 
-    .profile-photo {
-        width: 50%;
-        max-width: 200px;
-    }
-}
+/*    .profile-photo {*/
+/*        width: 50%;*/
+/*        max-width: 200px;*/
+/*    }*/
+/*}*/
