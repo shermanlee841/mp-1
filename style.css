@@ -131,7 +131,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     margin: 2vh 0;
-    gap: 1vw;
+    gap: 1vw; /* found from utilizing Athens when asking about responsive design which talked about using gap within flexbot to help eliminate formatting issues when using margin/padding  */
 }
 
 .calculator-buttons button {
